@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header id="home">
+        <!-- Меню на шапке сайте -->
+        <nav class="menu">
+            <div class="container">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#home" class="menu__link">Главная</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#withYourCar" class="menu__link">Со своим автомобилем</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#byCompanyCar" class="menu__link">На автомобиле компании</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#requirements" class="menu__link">Требования</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contacts" class="menu__link">Контакты</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#submit" class="menu__link">Оставить заявку</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        
+        <!-- подшапка сайта -->
+        <div class="subheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 col-lg-4 offset-lg-1">
+                        <a href="#" class="subheader__logo">
+                            <img src="icons/Uber.png" alt="logo">
+                        </a>
+                        <div class="subheader__logo-text">
+                            Официальный партнер Uber в Москве
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2 xs-hidden">
+                        <div class="subheader__call">
+                            Звоните нам ежедневно
+                        </div>
+                        <a href="tel:84957970988" class="subheader__phone" id="contacts">
+                            8 495 797 09 88
+                        </a>
+                    </div>
+
+                    <div class="col-6 offset-1 col-sm-5 offset-sm-2 col-md-2 offset-md-0">
+                        <a href="tel:84957970988" class="subheader__phone xs-visible">
+                            8 495 797 09 88
+                        </a>
+                        <button class="subheader__btn">
+                            заказать звонок
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Промо секция сайта -->
+    <section class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
+                    <h1 class="promo__title">
+                        КОМПАНИЯ UBER PARTNERS!
+                    </h1>
+                    <h2 class="promo__subtitle">
+                        ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!
+                    </h2>
+                    <div class="promo__descr">
+                        Компания UBER  динамически развивающаяся. Компания на рынке занимает лидирующее место среди таксомоторных компаний, Компания абсолютно прозрачная вы можете контролировать все процессы у себя в личном кабинете. Бонуcная система.Помимо выполненной работы по заказам, компания начисляет бонусы за пиковое время. 
+                        <br><br>
+                        Мы одни из партнеров и зарекомендовали себя как одна из лучших команд в городе Москве.  Водители у нас зарабатывают от 80000- 120000 в месяц.
+                    </div>
+                    <button class="promo__btn" id="submit">
+                        ОТПРАВИТЬ ЗАЯВКУ!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция причины -->
+    <section class="advantage">
+        <div class="container">
+            <div class="label">
+                преимущества
+            </div>
+            <h2 class="title">
+                8 причин начать работать с нами
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="advantage__item">
+                        <div class="advantage__round">
+                            <img src="icons/advanrage-icon/advantage-1.png" alt="1">
+                        </div>
+                        <div class="advantage__descr">
+                            <span>Никаких наличных, оплата происходит автоматически</span><br>
+                            Стоимость поездки оплачивается пассажиром с привязанной банковской карты, т.е. нет никаких рисков связанных с перевозкой наличности как для пассажира, так и для водителя, Вам не нужно искать мелкие деньги для размена.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="advantage__item">
+                        <div class="advantage__round">
+                            <img src="icons/advanrage-icon/advantage-2.png" alt="2">
+                        </div>
+                        <div class="advantage__descr">
+                            <span>Высокий доход с гарантированными выплатами</span><br>
+                            Мы выплачиваем заработную плату на личную банковскую карту водителя! Вам не нужно оформлять ООО, ИП, платить налоги, подавать декларацию, оплачивать бухгалтерские услуги и ведение банковского счета.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="advantage__item">
+                        <div class="advantage__round">
+                            <img src="icons/advanrage-icon/advantage-3.png" alt="3">
+                        </div>
+                        <div class="advantage__descr">
+                            <span>Комфортное, прозрачное и простое подключение</span><br>
+                            Мы подключаем дистанционно и бесплатно, Вам нет необходимости приезжать к нам! Вы присылаете нам копии документов, мы регистрируем Вас и присылаем данные для подключения, через 1-2 дня Вы можете начинать работать!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6"> 
+                    <div class="advantage__item">
+                        <div class="advantage__round">
+                            <img src="icons/advanrage-icon/advantage-4.png" alt="4">
+                        </div>
+                        <div class="advantage__descr">
+                            <span>Круглосуточная поддержка</span><br>
+                            В Uber действует круглосуточная поддержка водителей по электронной почте. Если что-то непонятно, Вы всегда можете задать вопрос через On-line консультацию.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="advantage__item">
+                        <div class="advantage__round">
+                            <img src="icons/advanrage-icon/advantage-5.png" alt="5">
+                        </div>
+                        <div class="advantage__descr">
+                            <span>Комиссия 8% + БОНУСЫ</span><br>
+                            У нас минимальная комиссия и мы выплачиваем бонусы за каждую поездку, некоторые наши конкуренты оставляют бонусы себе. Мы работаем честно и с нами водители зарабатывают больше!
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col-md-6">
+                    <div class="advantage__item">
+                        <div class="advantage__round">
+                            <img src="icons/advanrage-icon/advantage-6.png" alt="6">
+                        </div>
+                        <div class="advantage__descr">
+                            <span>Работа в удобное время, никаких графиков</span><br>
+                            Вы просто нажимаете кнопку выйти на линию для начала работы, когда решите закончить, нажимаете выйти с линии. Вы можете подраба-
+                            тывать только утром, вечером, в выходные или праздничные дни! 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="advantage__item">
+                        <div class="advantage__round">
+                            <img src="icons/advanrage-icon/advantage-7.png" alt="7">
+                        </div>
+                        <div class="advantage__descr">
+                            <span>Всегда большое количество заказов</span><br>
+                            Приложение показывает, где на данный момент больше всего заказов и где действуют повышенные тарифы. У Вас не будет простоя и холостых пробегов. Наши пассажиры всегда приятные и абсолютно неконфликтные люди, которых приятно возить.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="advantage__item">
+                        <div class="advantage__round">
+                            <img src="icons/advanrage-icon/advantage-8.png" alt="8">
+                        </div>
+                        <div class="advantage__descr">
+                            <span>Без шашечек и наклеек</span><br>
+                            Вам не нужно менять цвет, устанавливать «шашки» на автомобиль и обклеивать его наклейками.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Секция мобильного приложения -->
+    <section class="mobile">
+        <div class="container">
+            <div class="label">
+                Возможности
+            </div>
+            <div class="title">
+                мобильное приложение убер
+            </div>
+            <div class="subtitle">
+                Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="mobile__item mobile__item-1">
+                        <div class="mobile__item-title">оформление заказа одним касанием</div>
+                        <div class="mobile__item-plus">
+                            <img src="icons/plus.png" alt="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile__item mobile__item-2">
+                        <div class="mobile__item-title">надежная подача</div>
+                        <div class="mobile__item-plus">
+                            <img src="icons/plus.png" alt="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile__item mobile__item-3">
+                        <div class="mobile__item-title">прозрачные цены</div>
+                        <div class="mobile__item-plus">
+                            <img src="icons/plus.png" alt="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile__item mobile__item-4">
+                        <div class="mobile__item-title">безналичная оплата</div>
+                        <div class="mobile__item-plus">
+                            <img src="icons/plus.png" alt="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile__item mobile__item-5">
+                        <div class="mobile__item-title">обратная связь</div>
+                        <div class="mobile__item-plus">
+                            <img src="icons/plus.png" alt="plus">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mobile__item mobile__item-6">
+                        <div class="mobile__item-title">разделить стоимость поездки</div>
+                        <div class="mobile__item-plus">
+                            <img src="icons/plus.png" alt="plus">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Секция выбор машины -->
+    <section class="selection">
+        <div class="container">
+            <div class="label">
+                Возможности
+            </div>
+            <div class="title">
+                Выбор - отличная штука!
+            </div>
+            <div class="subtitle">
+                Закажите автомобиль, который подходит вам по стилю и бюджету
+            </div>
+            <img src="img/car.png" alt="car">
+            <div class="selection__descr">
+                Машины на каждый день.<br>
+                Лучше, быстрее и дешевле, чем такси
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция условия и требования -->
+    <section class="request">
+        <div class="container">
+            <div class="label">
+                Возможности
+            </div>
+            <div class="title">
+                условия и требования
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="request__wrapper">
+                        <div class="request__subtitle" id="withYourCar">
+                            УСЛОВИЯ: со своим авто:
+                        </div>
+                        <ul class="request__list">
+                            <li>Подключаем к системе UBER  под 10%.</li>
+                            <li>Ни каких взносов  0%!</li>
+                            <li>Можем подключать удаленно без приезда в офис</li>
+                            <li>ИП не требуется</li>
+                            <li>Заказы распределяются без учета рейтинга ближай-<br>
+                                шим водителям</li>
+                            <li>Работа только по безналичному расчету</li>
+                            <li>Деньги перечисляем на карту водителю или наличны-<br>
+                                ми в офисе</li>
+                        </ul>
+                        <div class="request__descr">
+                            В день заработок составляет 7000-12000р + бонус 3000т<br> 
+                            рублей
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="request__wrapper">
+                        <div class="request__subtitle" id="byCompanyCar">
+                            УСЛОВИЯ: на авто компании:
+                        </div>
+                        <ul class="request__list">
+                            <li>Предоставляем авто без залога</li>
+                            <li>Без ежедневных выплат по аренде</li>
+                            <li>Среда пятница и суббота работа на компанию осталь-<br>
+                                ные дни вы работаете на себя</li>
+                        </ul>
+                    </div>        
+                </div>
+                <div class="col-md-6">
+                    <div class="request__wrapper warning">
+                        <div class="request__subtitle" id="requirements">
+                            ТРЕБОВАНИЕ:
+                        </div>
+                        <ul class="request__list">
+                            <li>Наличие автомобиля без рекламы</li>
+                            <li>Автомобиль не должен быть желтый и не с желтыми<br>
+                                номерами</li>
+                            <li>Машина не старше 3 лет</li>
+                            <li>Стаж вождения не менее 3 лет</li>
+                            <li>Девайс на системе андроид 4.0 и выше(самсунг)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="request__wrapper warning">
+                        <div class="request__subtitle">
+                            ДОКУМЕНТЫ:
+                        </div>
+                        <ul class="request__list">
+                            <li>Права 2 стороны</li>
+                            <li>Паспорт лицевая сторона</li>
+                            <li>СтС</li>
+                            <li>ИЛицензия (если есть)</li>
+                            <li>Номер телефона</li>
+                            <li>Номер карты для перечисления денег(указать в письме)!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Секция города -->
+    <section class="cities">
+        <div class="container">
+            <div class="cities__wrapper">            
+                <div class="label">
+                    города
+                </div>
+                <div class="title">
+                    По всему миру
+                </div>
+                <div class="subtitle">
+                    Мы в вашем городе и по всему миру
+                </div>
+            </div>    
+            <a href="#" class="cities__all">
+                посмотреть все города
+            </a>
+        </div>
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__line"></div>
+            <div class="row footer__wrapper">
+                <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">на главную</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">города</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">для водителей</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <ul class="footer__submenu">
+                        <li class="footer__submenu-item">
+                            <a href="" class="footer__submenu-link">центр поддержки</a>
+                        </li>
+                        <li class="footer__submenu-item">
+                            <a href="" class="footer__submenu-link">вакансии</a>
+                        </li>
+                        <li class="footer__submenu-item">
+                            <a href="" class="footer__submenu-link">разработчики</a>
+                        </li>
+                        <li class="footer__submenu-item">
+                            <a href="" class="footer__submenu-link">блог</a>
+                        </li>
+                        <li class="footer__submenu-item">
+                            <a href="" class="footer__submenu-link">о нас</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="footer__lang">
+                    русский
+                </a>
+            </div>
+
+            <div class="row">
+                <div class="col-6 offset-3 col-sm-4 offset-sm-4 col-md-0 offset-md-0">
+                    <ul class="footer__messengers">
+                        <li class="footer__messengers-item">
+                            <a href="" class="footer__messengers-link">
+                                <img src="icons/messengers_icon/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="footer__messengers-item">
+                            <a href="" class="footer__messengers-link">
+                                <img src="icons/messengers_icon/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="footer__messengers-item">
+                            <a href="" class="footer__messengers-link">
+                                <img src="icons/messengers_icon/linkedin.png" alt="linkedin">
+                            </a>
+                        </li>
+                        <li class="footer__messengers-item">
+                            <a href="" class="footer__messengers-link">
+                                <img src="icons/messengers_icon/instagram.png" alt="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="col-12 offset-0 col-sm-8 offset-sm-2 col-md-0 offset-md-0">
+                    <div class="footer__apps">
+                        <a href="#" class="footer__apps-item"></a>
+                        <a href="#" class="footer__apps-item footer__apps-item-2"></a>
+                        <a href="#" class="footer__apps-item footer__apps-item-3"></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
